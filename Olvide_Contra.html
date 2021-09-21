@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href="e_Olvide.css"/>
+    <link rel = "stylesheet" href="css/e_Olvide.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -13,7 +13,7 @@
     <title>Olvide Contraseña</title>
 </head>
 <body id ="restablecer2">
-    <div class = "modal-dialog text-center" id ="restablecer">
+    <div class = "text-center" id ="restablecer">
         <div>
             <h1>
                 Restablezca su Contraseña
@@ -21,23 +21,23 @@
         </div>
         <div>
             <p>
-            Le enviaremos un correo electroníco con más instrucciones sobre cómo restablecer su contraseña
+            Le enviaremos un correo electrónico con más instrucciones sobre cómo restablecer su contraseña
             </p>
         </div>
-        <form>
-            <div class = "form-group">
-                <input type = "text" placeholder="Correo electronico">
+        <form class ="col-12">
+            <div class = "form-group modal-content">
+                <input type = "text" class= "form-control" placeholder="Correo electronico"/>
+            </div>
+        
+            <div class ="form-group" id="boton">
+                <button type="button" class="btn btn-danger">Enviar un email</button>
+            </div>
+            <div class = "form-group" id = "volverb">
+                <a href="Inicio de sesion.html">
+                    Volver 
+                </a>
             </div>
         </form>
-        <div class ="form-group" >
-            <button type="button" class="btn btn-danger">Enviar un email</button>
-        </div>
-        <div>
-            <a href="Inicio de sesion.html">
-                Volver 
-            </a>
-        </div>
-    
     </div>
         
 </body>
