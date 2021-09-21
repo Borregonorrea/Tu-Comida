@@ -33,7 +33,7 @@ body {
 
 .header{
     height: 450px;
-    background: url(img/cocina.png) no-repeat center top;
+    background: url(cocina.png) no-repeat center top;
     background: cover;
 }
 
@@ -92,7 +92,7 @@ p{
 }
 
 .costos{
-    background: url(img/italiano.jpg) no-repeat center top;
+    background: url(italiano.jpg) no-repeat center top;
     color: #fff;
     text-align: left;
     background-size: cover;
