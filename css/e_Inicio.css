@@ -5,11 +5,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    background-image:url(../img/Fondo\ prueba3.jpg);
+    background-image:url(../img/Fondo\ cocina3.jpg);
         }
 
 #inicio {
     position: relative;
+    background-color: #fff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -20,7 +21,8 @@ body {
     width: 100%;
     pointer-events: auto;
     background-clip: padding-box;
-    border: 0;
+    border: 1px solid #ced4da;
     border-radius: .3rem;
     outline: 0;
+
 }
