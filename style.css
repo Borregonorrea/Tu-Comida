@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    text-align: center;
+    font-family: "roboto", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-platillos {
+    display: flex;
+    align-items: left;
+    justify-content: right;
+
+}
+
+.list-platillos figure{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-flow: colum;
+
+}
+
+.header{
+    height: 450px;
+    background: url(img/cocina.png) no-repeat center top;
+    background: cover;
+}
+
+.navbar{
+    height: 63px;
+    background: #212121;
+    border-bottom: 1px dashed #d6e199;
+}
+
+.navbar a{
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 20px;
+}
+.title{
+    margin-bottom: 40px;
+    font: 60px;
+    text-transform: uppercase;
+
+}
+p{
+    margin-bottom: 40px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 200px 40px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+}
+
+.content{
+    padding: 70px 0;
+
+}
+
+.abo {
+    background: #ff9000;
+    color: #fff;
+
+}
+
+.abo p{
+    max-width: 1055px;
+    margin: 0 auto;
+
+}
+
+.platillos{
+    background:  #3d3f36;
+    color: #fff;
+
+}
+
+.costos{
+    background: url(img/italiano.jpg) no-repeat center top;
+    color: #fff;
+    text-align: left;
+    background-size: cover;
+
+}
+
+.contain{
+    max-width: 1055px;
+    margin: 0 auto;
+}
+
+.costos p{
+    max-width: 450px;
+
+}
+
+.ubicacion{
+    background: #3d3f36;
+    color: #fff;
+    padding-bottom: 0;
+}
+
+.ubicacion .maps img{
+    max-width: 100%;
+    height: 100%;
+}
+
+.list-platillos figure{
+    position: relative;
+    width: 600px;
+    height: 100px;
+}
+
+.list-platillos figure:after{
+    content: " ";
+    position: absolute;
+    left: 100;
+    top: 0;
+    z-index: 0;
+    background: 0;
+    border-radius: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.list-platillos img{
+    position: relative;
+    z-index: 1;
+
+}
+
+.list-platillos li{
+    padding: 0 30px;
+}
+
+.list-platillos figcaption{
+    position: absoluto;
+    left: 0;
+    right: 0;
+    bottom: -40px;
+}
