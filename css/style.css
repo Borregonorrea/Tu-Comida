@@ -19,13 +19,13 @@ body {
 .list-platillos {
     display: flex;
     align-items: left;
-    justify-content: center;
+    justify-content: right;
 
 }
 
 .list-platillos figure{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     flex-flow: colum;
 
@@ -62,14 +62,14 @@ p{
 
 .btn{
     display: inline-block;
-    padding: 10px 40px;
+    padding: 200px 40px;
     border: 2px solid #fff;
     color: #fff;
     text-decoration: none;
 }
 
 .content{
-    padding: 80px 0;
+    padding: 70px 0;
 
 }
 
@@ -92,7 +92,7 @@ p{
 }
 
 .costos{
-    background: url(/img/italiano.jpg) no-repeat center top;
+    background: url(../img/italiano.jpg) no-repeat center top;
     color: #fff;
     text-align: left;
     background-size: cover;
@@ -122,18 +122,18 @@ p{
 
 .list-platillos figure{
     position: relative;
-    width: 200px;
+    width: 600px;
     height: 100px;
 }
 
 .list-platillos figure:after{
     content: " ";
     position: absolute;
-    left: 0;
+    left: 100;
     top: 0;
     z-index: 0;
-    background: #ff9000;
-    border-radius: 50%;
+    background: 0;
+    border-radius: 0;
     width: 100px;
     height: 100px;
 }

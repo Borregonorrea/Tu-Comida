@@ -1,7 +1,12 @@
 body {
-    display: block;
-    background-image:url(../img/Fondo\ 2.jpg);
-}
+    margin: 0;
+    padding: 0%;
+    font-family: montserrat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-image:url(../img/Fondo\ prueba3.jpg);
+        }
 
 #inicio {
     position: relative;
